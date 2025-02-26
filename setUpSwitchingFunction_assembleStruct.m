@@ -3,9 +3,13 @@ function switchingFcn = setUpSwitchingFunction_assembleStruct(datahandle, sI, na
 % incrementing the uniqueSwEnumeration property of data.SWP_detection
 data = datahandle.getData();
 
+% sI is the switching index, refered to the vectors in data.SWP_detection, get the ctrlif_index w.r.t. to sI
 switchingFcn.sI = sI;
 
-switchingFcn.mtreeobj = data.mtreeplus;
+switchingFcn.mtreeobj = data.mtreeplus; 
+
+% n-th switching functions refers to the n-th switch (n is suffix for switching function name)
+switchingFcn.n = length(data.SWP_detection.switchingpoints) + 1;
 
 switchingFcn.function_index_t1 = data.SWP_detection.function_index_t1;
 switchingFcn.ctrlif_index_t1   = data.SWP_detection.ctrlif_index_t1;
