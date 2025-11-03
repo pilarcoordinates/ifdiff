@@ -1,4 +1,5 @@
 # IFDIFF - A Matlab Toolkit for ODEs with State˗Dependent Switches
+[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=andreassommer/ifdiff&file=toolbox/doc/GettingStarted.mlx)
 
 The software package IFDIFF deals with the solution and algorithmic generation of sensitivities in
 ordinary differential equations with implicit (state-dependent) non-differentiabilites ("switches") 
@@ -11,7 +12,7 @@ Sensitivities can be generated w.r.t. the initial values and w.r.t. a given para
 
 See the [IFDIFF page](https://andreassommer.github.io/ifdiff/) for a mathematical introduction with example.
 
-The file [Readme_Example.m](./Readme_Example.m) contains a self-explaining Matlab script similar to the
+The file [Readme_Example.m](./toolbox/examples/Readme_Example.m) contains a self-explaining Matlab script similar to the
  contents below.
 
 </br>
